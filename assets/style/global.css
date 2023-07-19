@@ -21,8 +21,9 @@
     --toggle-light:  hsl(230, 22%, 74%);
     --white-bg: hsl(0, 0%, 100%); /*(BG)*/
     --very-pale-blue: hsl(225, 100%, 98%); /*(Top BG Pattern)*/
-    --light-grayish-blue: hsl(227, 47%, 96%); /*(Card BG)*/
+    --light-grayish-blue: #f0f2fa; /*(Card BG)*/
     --dark-grayish-blue: hsl(228, 12%, 44%); /* (Text)*/
+    --test: #F0F3FA;
     
 
     /* Dark Theme */
@@ -46,7 +47,7 @@ html {
 body {
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
-    background: var(--very-pale-blue);
+    background: var(--white-bg);
     /* Fonts mais detalhadas/nítidas */
 }
 
@@ -137,5 +138,12 @@ body {
     color: var(--toggle-light);
 }
 
+/*Article-Cards*/
+.dark-theme article{
+    background-color: var(--dark-desaturated-blue);
+}
 
+.dark-theme article h2{
+    color: var(--white);
+}
 
