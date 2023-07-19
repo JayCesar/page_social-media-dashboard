@@ -20,9 +20,10 @@
     /* Light Theme */
     --toggle-light:  hsl(230, 22%, 74%);
     --white-bg: hsl(0, 0%, 100%); /*(BG)*/
-    --very-Pale-Blue: hsl(225, 100%, 98%); /*(Top BG Pattern)*/
-    --light-Grayish-Blue: hsl(227, 47%, 96%); /*(Card BG)*/
-    --dark-Grayish-Blue: hsl(228, 12%, 44%); /* (Text)*/
+    --very-pale-blue: hsl(225, 100%, 98%); /*(Top BG Pattern)*/
+    --light-grayish-blue: hsl(227, 47%, 96%); /*(Card BG)*/
+    --dark-grayish-blue: hsl(228, 12%, 44%); /* (Text)*/
+    
 
     /* Dark Theme */
     /* --Toggle-dark: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);*/
@@ -45,7 +46,7 @@ html {
 body {
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
-    background: var(--white-bg);
+    background: var(--very-pale-blue);
     /* Fonts mais detalhadas/nítidas */
 }
 
@@ -122,6 +123,10 @@ body {
 .dark-theme{
     background: var(--very-dark-blue);
     color: var(--black-800);
+}
+
+.dark-theme .menuSwitch{
+    border-top: 1px var(--dark-grayish-blue) solid;
 }
 
 .dark-theme #header-intro h1{
