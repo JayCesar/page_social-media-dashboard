@@ -31,7 +31,7 @@
     --very-dark-blue: hsl(230, 17%, 14%); /*(BG)*/
     --very-dark-blue: hsl(232, 19%, 15%); /*(Top BG Pattern)*/
     --dark-desaturated-blue: hsl(228, 28%, 20%); /*(Card BG)*/
-    --desaturated-Blue: hsl(228, 34%, 66%); /*(Text)*/
+    --desaturated-blue: hsl(228, 34%, 66%); /*(Text)*/
     --white: hsl(0, 0%, 100%); /* (Text)*/
 }
 
@@ -135,15 +135,34 @@ body {
 }
 
 .dark-theme #header-intro p{
-    color: var(--toggle-light);
+    color: var(--desaturated-blue);
 }
 
 /*Article-Cards*/
 .dark-theme article{
     background-color: var(--dark-desaturated-blue);
+    box-shadow: 12px 12px 2px 1px rgba(1, 1, 1, 0.2);
+}
+
+.dark-theme article .header-card p{
+    background-color: var(--dark-desaturated-blue);
+    color: var(--desaturated-blue);
 }
 
 .dark-theme article h2{
     color: var(--white);
 }
 
+
+/*Article-Veiw-Cards*/
+.dark-theme .cards-views-tittle h2{
+    color: var(--white);
+}
+
+.dark-theme .card-view header p{
+    color: var(--desaturated-blue)
+}
+
+.dark-theme .cards-views footer h3{
+    color: #fff;
+}
