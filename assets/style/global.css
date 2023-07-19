@@ -51,6 +51,19 @@ body {
     /* Fonts mais detalhadas/nítidas */
 }
 
+.attribution{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.attribution a{
+    color: hsl(329, 70%, 58%);
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 
 /* SWITCH */
@@ -126,8 +139,10 @@ body {
     color: var(--black-800);
 }
 
-.dark-theme .menuSwitch{
-    border-top: 1px var(--dark-grayish-blue) solid;
+@media screen and (max-width: 629px){
+    .dark-theme .menuSwitch{
+        border-top: 1px var(--dark-grayish-blue) solid;
+    }
 }
 
 .dark-theme #header-intro h1{
@@ -166,3 +181,10 @@ body {
 .dark-theme .cards-views footer h3{
     color: #fff;
 }
+
+
+.dark-theme .attribution{
+    color: white
+}
+
+
