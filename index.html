@@ -1,87 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/imgs/favicon-32x32.png" type="image/x-icon">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | [Social Mdeia Dashboard with Theme]</title>
+
+  <link rel="stylesheet" href="assets/style/global.css">
+  <link rel="stylesheet" href="/assets/style/styles.css">
+  <script src="assets/script/script.js" defer></script>
 </head>
 <body>
 
-  Social Media Dashboard
-  Total Followers: 23,004
+  <header id="header-intro">
+    <nav>
+      <div>
+        <h1>Social Media Dashboard</h1>
+        <p> Total Followers: 23,004</p>
+      </div>
+      <div class="menuSwitch">
+        <p>Dark Mode</p>
+        <label class="switch">
+          <input type="checkbox" id="btnChangeMenu">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </nav>
+  </header>
 
-  Dark Mode
+  <main>
+    <article> <!--card-->
+      <header>
+        <img src="assets/imgs/icon-facebook.svg" alt="Facabeook ícone">
+        <p>@nathannf</p>
+      </header>
 
+      <section>
+        <h2>1987</h2>
+        <p>FOLLOWERS</p>
+      </section>
+
+      <footer>
+        <img src="assets/imgs/icon-up.svg" alt="Up arrow">
+        <p>12 Today</p>
+      </footer>
+
+    </article>
+
+
+  </main>
+
+
+
+ 
   
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Júlio César</a>.
+  </div> -->
 </body>
 </html>
