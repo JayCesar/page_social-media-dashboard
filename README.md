@@ -35,7 +35,7 @@ Its main purpose is to offer users a holistic overview of their social media per
 
 ## 🖥️ Demo  
     
-![gif-faq](https://github.com/salvedojuliao/page_faq-accordion-card-main/assets/44206400/cb2b76ee-427e-49a5-a5a2-3e2209dd83a0)
+![gif-faq](https://github.com/JayCesar/page_social-media-dashboard/assets/44206400/9864dd16-d0c1-4b89-8332-f67a5c34cc34)
 
 ***
 
