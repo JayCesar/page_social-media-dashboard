@@ -159,6 +159,10 @@ body {
     box-shadow: 12px 12px 2px 1px rgba(1, 1, 1, 0.2);
 }
 
+.dark-theme article:hover{
+    background-color: hsl(227, 25%, 11%);
+}
+
 .dark-theme article .header-card p{
     background-color: var(--dark-desaturated-blue);
     color: var(--desaturated-blue);

@@ -1,3 +1,4 @@
+
 /* Mobile | Geral*/
 @media screen and (max-width: 460px) {
   /*HEADER*/
@@ -421,6 +422,15 @@
     align-items: center;
   }
 
+
+}
+
+@media screen and (min-width: 760px){
+  article:hover {
+    background-color: #e4e5e8;
+    cursor: pointer;
+  }
+  
 
 }
 
